@@ -8,7 +8,6 @@ import {
 import Ejercicio1 from './componentes/Ejercicio1';
 import Ejercicio2 from './componentes/Ejercicio2';
 import Inicio from './componentes/Inicio';
-
 function App() {
   return (
     <Router>
@@ -27,18 +26,14 @@ function App() {
         <hr/>
         <Routes>
           <Route path="/" element={<Inicio />}>
-            
           </Route>
           <Route path="/ejercicio1" element={<Ejercicio1 />}>
-            
           </Route>
           <Route path="/ejercicio2" element={<Ejercicio2 />}>
-            
           </Route>
         </Routes>
       </div>
     </Router>
   );
 }
-
 export default App;
