@@ -1,6 +1,17 @@
 .App {
   text-align: center;
 }
+.title1{
+  color: #157347;
+}
+.op{
+  width: 200px;
+  font-size: large;
+  margin: 10px;
+}
+.ops{
+  text-align: center;
+}
 
 .App-logo {
   height: 40vmin;
